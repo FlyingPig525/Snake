@@ -1,0 +1,27 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "nek",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlyingPig525/Snake.git"
+  },
+  "keywords": [
+    "snake",
+    "game",
+    "phaser"
+  ],
+  "author": "FlyingPig525",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FlyingPig525/Snake/issues"
+  },
+  "homepage": "https://github.com/FlyingPig525/Snake#readme",
+  "dependencies": {
+    "phaser": "^3.55.2"
+  }
+}
