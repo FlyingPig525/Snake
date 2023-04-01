@@ -1,9 +1,7 @@
-const Phaser = require('phaser');
-
 const gameState = {}
 
 function create() {
-    gameState.ball = this.add.cube()
+    gameState.ball = this.add.box()
 
 }
 
@@ -14,7 +12,7 @@ function update() {
 const config = {
     width: 450,
     height: 900,
-    backgroundColor: 'cccccc',
+    backgroundColor: 0xFFFFFF,
     scene: {
         create,
         update
